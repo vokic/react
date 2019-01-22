@@ -8,12 +8,12 @@ import Header from './components/Header'
 
 export default class App extends Component {
   render() {
-    const imeFirme = "Prokleti sajt";
+    const imeFirme = "Glupa firma";
     return (
       <div>
 
         <Header ime={imeFirme} />
-        <Main ime={imeFirme} />
+        <Main />
         <Footer ime= {imeFirme}/>
       
                </div>

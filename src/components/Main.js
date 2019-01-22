@@ -1,34 +1,20 @@
 import React, { Component } from 'react'
-const korisnici = [
-
-    {
-        ime: "Marija",
-        utisak: "Sve ok"
-    },
-    {
-        ime: "Darija",
-        utisak: "Sve ok"
-    },
-    {
-        ime: "Parija",
-        utisak: "Sve ok"
-    },
-
-]
-
+import Utisak from './Utisak'
+import korisnici from '../data/korisnici.json'
 
 export default class Main extends Component {
     render() {
 
-    
-
-        const korisniciJsx = korisnici.map(x => <p>{x.ime}: {x.utisak}</p>)
+        const korisniciJsx = korisnici
+            .map((x, i) =>  <Utisak  key={i} korisnik={x} />
+            
+            )
 
         return (
-            <header>
-                <h2>Prokleti main</h2>
+            <main>
+                <h3>Glupi main</h3>
                 {korisniciJsx}
-            </header>
+            </main >
         )
     }
 }

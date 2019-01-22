@@ -30,3 +30,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+header,
+footer{
+  background-color: lightseagreen;
+}
+
+main{
+  padding-right: 10%;
+  padding-left: 10%;
+}

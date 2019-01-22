@@ -1,0 +1,19 @@
+[
+
+    {
+        "ime": "Marija",
+        "utisak": "Nista nije ok",
+        "slika": "https://randomuser.me/api/portraits/men/22.jpg"
+    },
+    {
+        "ime": "Darija",
+        "utisak": "Sve ok",
+        "slika": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+        "ime": "Parija",
+        "utisak": "Solidno",
+        "slika": "https://randomuser.me/api/portraits/men/33.jpg"
+    }
+
+]

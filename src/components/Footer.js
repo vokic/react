@@ -4,7 +4,7 @@ export default class Footer extends Component {
     render (){
         return (
             <footer>
-                <p>Prokleti footer na {this.props.ime}</p>
+                <p>Sva prava zadrzana. {this.props.ime} 2019.</p>
             </footer>
         )
     }
